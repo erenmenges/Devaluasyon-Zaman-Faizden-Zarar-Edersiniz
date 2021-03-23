@@ -1,11 +1,10 @@
 para = 100000
-faizilk = int(input("Faiz oranını girin (nokta veya virgül koyma ve 4 basamaklı gir[örn:%11,25 --> 1125]):"))
+#test
+faizilk = int(input("Faiz oranını girin (nokta veya virgül koymayın ve 4 basamaklı girin [örn:%11,25 --> 1125]):"))
 dolar_kuru = float(input("Dolar kurunu girin:"))
-paradolar = (para / dolar_kuru)
 places = 4
 faiz = faizilk * (10 ** (-1 * places))
 faizlipara = para + (para * faiz)
-faizliparadolar = faizlipara / dolar_kuru
 dolargelecek = dolar_kuru
 while (faizlipara/dolargelecek) >= (para/dolar_kuru):
     dolargelecek += 0.01
