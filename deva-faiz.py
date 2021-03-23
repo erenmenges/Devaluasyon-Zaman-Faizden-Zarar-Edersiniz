@@ -1,5 +1,4 @@
 para = 100000
-#test
 faizilk = int(input("Faiz oranını girin (nokta veya virgül koymayın ve 4 basamaklı girin [örn:%11,25 --> 1125]):"))
 dolar_kuru = float(input("Dolar kurunu girin:"))
 places = 4
